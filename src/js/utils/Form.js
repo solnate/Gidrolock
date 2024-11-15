@@ -31,7 +31,6 @@ export default class Form {
         /*  this._btnSubmit = this._form.querySelector('button[type="submit"]')
             this._btnSubmit.setAttribute('disabled', true) */
 
-
         this.initForm()
     }
     _inputHandler(inputTarget) {
