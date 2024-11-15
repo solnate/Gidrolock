@@ -210,8 +210,8 @@ module.exports = {
         onEnd: {
           mkdir: [devMode ? '' : 'dist/css'],
           copy: [
-            { source: 'dist/js', destination: 'deploy/local/templates/gidrolock/js' },
-            { source: 'dist/css', destination: 'deploy/local/templates/gidrolock/css' },
+            { source: 'dist/js', destination: 'local/templates/gidrolock/js' },
+            { source: 'dist/css', destination: 'local/templates/gidrolock/css' },
           ]
         }
       }
